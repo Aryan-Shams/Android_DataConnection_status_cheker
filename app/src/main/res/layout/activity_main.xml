@@ -25,4 +25,21 @@
         android:layout_marginTop="27dp"
         android:layout_below="@+id/button_wifi"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView_wifistatus"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView_mobileData"
+        android:layout_below="@+id/textView_wifistatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp" />
 </RelativeLayout>
