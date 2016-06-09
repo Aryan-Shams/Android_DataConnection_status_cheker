@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DataConnection</string>
+    <string name="mobile_data">Mobile Data</string>
+    <string name="wi_fi">WI-FI</string>
 </resources>

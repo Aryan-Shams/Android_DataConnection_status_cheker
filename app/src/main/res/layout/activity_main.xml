@@ -9,8 +9,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.shopnosoft.dataconnection.MainActivity">
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/wi_fi"
+        android:id="@+id/button_wifi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mobile_data"
+        android:id="@+id/button_mobileData"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/button_wifi"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
